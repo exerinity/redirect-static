@@ -1,25 +1,18 @@
 # Redirect
-This is a simple page for redirecting a domain. It is designed for [Cloudflare Pages](https://pages.dev), static, client side scripting.
+This is a simple page for redirecting a domain. It is designed for [Cloudflare Pages](https://pages.dev), or anything that offers static page hosting.
 
-# How it works
-## index.html
-Simple <meta> refresh tag
+# How to use
+Simply copy both `index.html` and `404.html` to your server.
 
-## Other pages
-Will send a 404. That 404 will check the path name, and send you to another website WITH that path name
+This was designed for use with Cloudflare Pages (workers). You may need to adjust it:
 
-Pretty simple!
+## [Neocities](https://neocities.org)
+- Rename `404.html` to `not_found.html`
 
-Feel free to use however you like
+## Other servers/hosts
+I have not tested this with anything other than CF Pages and Neocities.
 
-
-# Other hosts
-## Neocities
-Rename "404.html" to "not_found.html"
-
-*I have only used Neocities and CF Pages so far; so I don't know how to use it. I would say just set `404.html` as the 404 error page*
-
-
+Please check the documentation
 # MIT License
 
 Copyright (c) 2024 sparkfire298
